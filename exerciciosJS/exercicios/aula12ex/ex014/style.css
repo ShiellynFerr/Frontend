@@ -1,0 +1,33 @@
+body {
+background-color: lightblue;
+font: normal, 15pt, arial;
+background-color:#778899
+
+}
+
+header {
+color: white;
+text-align: center;
+}
+
+section {
+background-color:lightcyan;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.466);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style:italic;
+}
+
+img{
+  width: 400px;
+}
+div{
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        #area{
+            font-size: 20px;
+            background-color: #f1b7b7;
+            color: #ffffff;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        interaja..
+     </div>
+
+     <script>
+var area = window.document.getElementById('area')
+
+area.addEventListener('click', clicar)
+area.addEventListener('mouseenter', entrar)
+area.addEventListener ('mouseout', sair)
+      function clicar (){
+
+        
+        area.innerText = ('Você clicou')
+        area.style.background = 'red'
+      }
+
+      // quando clicamos na nossa div,  vamos crirar um objeto chamado a, e ele vai ser uma ligação do objeto area dentro do js com o elemento de id "area" que está dentro do html, e esse objeto vai mudar o contéudo dele para "Você clicou"
+
+     function entrar (){
+      area.innerText ='Entrou'
+     
+     }
+
+     function sair (){
+         area.innerText = 'Saiu'
+         area.style.background = '#f1b7b7'
+     }
+     </script>
+</body>
+</html>
