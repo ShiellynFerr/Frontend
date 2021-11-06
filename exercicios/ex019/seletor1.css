@@ -1,0 +1,16 @@
+body{
+    background-color: #c574b1;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1#principal{
+    text-align: center;
+    background-color: black;
+}
+.basico{
+    color: green;
+}
+.inter{
+    color: yellow;
+}
+.avancado{color: red;}
